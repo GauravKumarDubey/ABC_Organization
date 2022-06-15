@@ -1,16 +1,15 @@
 package Edureka;
-public class Fibonacci {
+public class stringreverse {
 public static void main(String[] args) {
-//initializing the constants
-int n = 100, t1 = 0, t2 = 1;
-System.out.print("Upto " + n + ": ");
-//while loop to calculate fibonacci series upto n numbers
-while (t1<= n)
-{
-System.out.print(t1 + " + ");
-int sum = t1 + t2;
-t1 = t2;
-t2 = sum;
+// TODO Auto-generated method stub
+String str = "Welcome To Edureka";
+String[] strArray = str.split(" ");
+for (String temp: strArray){
+System.out.println(temp);
+}
+for(int i=0; i<3; i++){ char[] s1 = strArray[i].toCharArray(); for (int j = s1.length-1; j>=0; j--)
+{System.out.print(s1[j]);}
+System.out.print(" ");
 }
 }
 }
